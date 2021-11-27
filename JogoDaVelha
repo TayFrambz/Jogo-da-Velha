@@ -79,30 +79,3 @@ draw: function(){
 
 
 };
-
-
-CSS
-
-.game {
-    width: 500px;
-    height: 500px;
-    margin: 0 auto;
-    background-color: #b84cb8;
-    color: white;
-    border: 0px solid #972e97;
-    border-radius: 10px;
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-}
-
-.game > div {
-    border: 6px solid #b60fb6;
-    border-radius: 2px;
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 2cm;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
